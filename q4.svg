@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Inter, Arial, sans-serif">
+<rect width="1200" height="800" fill="#F5F7FB"/>
+<text x="600" y="55" text-anchor="middle" font-size="30" font-weight="700" fill="#1B2A49">Mobile Network Protocol Stack (GSM)</text>
+<text x="600" y="85" text-anchor="middle" font-size="15" fill="#5B6B8C">Key protocol layers across MS, BTS, BSC and MSC</text>
+<g font-size="16" font-weight="600" text-anchor="middle" fill="#fff">
+<text x="160" y="140" fill="#1B2A49" font-size="18">MS</text><text x="420" y="140" fill="#1B2A49" font-size="18">BTS</text><text x="680" y="140" fill="#1B2A49" font-size="18">BSC</text><text x="940" y="140" fill="#1B2A49" font-size="18">MSC</text>
+<!-- CM -->
+<rect x="60" y="160" width="200" height="70" rx="10" fill="#6C5CE7"/><text x="160" y="201">CM (CC / SMS / SS)</text>
+<rect x="840" y="160" width="200" height="70" rx="10" fill="#6C5CE7"/><text x="940" y="201">CM (CC / SMS / SS)</text>
+<!-- MM -->
+<rect x="60" y="250" width="200" height="70" rx="10" fill="#0984E3"/><text x="160" y="291">MM (Mobility Mgmt)</text>
+<rect x="840" y="250" width="200" height="70" rx="10" fill="#0984E3"/><text x="940" y="291">MM (Mobility Mgmt)</text>
+<!-- RR -->
+<rect x="60" y="340" width="200" height="70" rx="10" fill="#00B894"/><text x="160" y="381">RR (Radio Resource)</text>
+<rect x="320" y="340" width="200" height="70" rx="10" fill="#00B894"/><text x="420" y="381">RR relay</text>
+<rect x="580" y="340" width="200" height="70" rx="10" fill="#00B894"/><text x="680" y="381">RR / BSSMAP</text>
+<rect x="840" y="340" width="200" height="70" rx="10" fill="#0984E3"/><text x="940" y="381">BSSMAP / SCCP</text>
+<!-- Link -->
+<rect x="60" y="430" width="200" height="70" rx="10" fill="#E17055"/><text x="160" y="471">LAPDm</text>
+<rect x="320" y="430" width="95" height="70" rx="10" fill="#E17055"/><text x="367" y="471">LAPDm</text>
+<rect x="425" y="430" width="95" height="70" rx="10" fill="#FDCB6E"/><text x="472" y="471" fill="#333">LAPD</text>
+<rect x="580" y="430" width="200" height="70" rx="10" fill="#FDCB6E"/><text x="680" y="471" fill="#333">LAPD / MTP</text>
+<rect x="840" y="430" width="200" height="70" rx="10" fill="#FDCB6E"/><text x="940" y="471" fill="#333">MTP 2-3</text>
+<!-- Physical -->
+<rect x="60" y="520" width="200" height="70" rx="10" fill="#2D3436"/><text x="160" y="561">Physical (Um radio)</text>
+<rect x="320" y="520" width="95" height="70" rx="10" fill="#2D3436"/><text x="367" y="561">Radio</text>
+<rect x="425" y="520" width="95" height="70" rx="10" fill="#636E72"/><text x="472" y="561">E1/T1</text>
+<rect x="580" y="520" width="200" height="70" rx="10" fill="#636E72"/><text x="680" y="561">E1/T1 (A-bis / A)</text>
+<rect x="840" y="520" width="200" height="70" rx="10" fill="#636E72"/><text x="940" y="561">E1/T1</text>
+</g>
+<g font-size="14" fill="#1B2A49" text-anchor="middle" font-weight="600">
+<text x="290" y="625">Um</text><text x="550" y="625">Abis</text><text x="810" y="625">A interface</text>
+</g>
+<g stroke="#1B2A49" stroke-width="2" stroke-dasharray="6 4"><line x1="260" y1="205" x2="840" y2="205"/><line x1="260" y1="285" x2="840" y2="285"/></g>
+<text x="550" y="198" font-size="12" text-anchor="middle" fill="#1B2A49">end-to-end signalling</text>
+<g font-size="14" fill="#1B2A49"><rect x="60" y="680" width="16" height="16" fill="#6C5CE7"/><text x="84" y="693">Connection Mgmt</text>
+<rect x="240" y="680" width="16" height="16" fill="#0984E3"/><text x="264" y="693">Mobility Mgmt</text>
+<rect x="420" y="680" width="16" height="16" fill="#00B894"/><text x="444" y="693">Radio Resource</text>
+<rect x="600" y="680" width="16" height="16" fill="#E17055"/><text x="624" y="693">Data Link</text>
+<rect x="760" y="680" width="16" height="16" fill="#2D3436"/><text x="784" y="693">Physical</text></g>
+</svg>
