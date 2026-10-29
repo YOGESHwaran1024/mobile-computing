@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Inter, Arial, sans-serif">
+<rect width="1200" height="800" fill="#F5F7FB"/>
+<text x="600" y="50" text-anchor="middle" font-size="28" font-weight="700" fill="#1B2A49">Multiple Access Techniques – FDMA, TDMA, CDMA, OFDMA</text>
+<g font-size="18" font-weight="700" text-anchor="middle" fill="#1B2A49"><text x="165" y="100">FDMA</text><text x="465" y="100">TDMA</text><text x="765" y="100">CDMA</text><text x="1050" y="100">OFDMA</text></g>
+<g font-size="11" fill="#555" text-anchor="middle"><text x="165" y="330">Time →</text><text x="465" y="330">Time →</text><text x="765" y="330">Time →</text><text x="1050" y="330">Time →</text></g>
+<!-- FDMA: stacked frequency bands full time -->
+<g stroke="#fff" stroke-width="2"><rect x="60" y="120" width="210" height="45" fill="#6C5CE7"/><rect x="60" y="165" width="210" height="45" fill="#0984E3"/><rect x="60" y="210" width="210" height="45" fill="#00B894"/><rect x="60" y="255" width="210" height="45" fill="#E17055"/></g>
+<!-- TDMA: time slots full freq -->
+<g stroke="#fff" stroke-width="2"><rect x="360" y="120" width="52" height="180" fill="#6C5CE7"/><rect x="412" y="120" width="53" height="180" fill="#0984E3"/><rect x="465" y="120" width="52" height="180" fill="#00B894"/><rect x="517" y="120" width="53" height="180" fill="#E17055"/></g>
+<!-- CDMA: overlapping codes -->
+<g><rect x="660" y="120" width="210" height="180" fill="#EAF0FA" stroke="#1B2A49"/>
+<polyline fill="none" stroke="#6C5CE7" stroke-width="2.5" points="665,200 685,160 705,240 725,160 745,240 765,160 785,240 805,160 825,240 865,200"/>
+<polyline fill="none" stroke="#E17055" stroke-width="2.5" points="665,250 690,230 715,270 740,230 765,270 790,230 815,270 840,230 865,260"/>
+<polyline fill="none" stroke="#00B894" stroke-width="2.5" points="665,150 700,180 735,130 770,180 805,130 840,180 865,140"/>
+<text x="765" y="318" font-size="11" text-anchor="middle" fill="#555">All users share full band &amp; time</text></g>
+<!-- OFDMA grid -->
+<g stroke="#fff" stroke-width="2">
+<rect x="945" y="120" width="52" height="45" fill="#6C5CE7"/><rect x="997" y="120" width="53" height="45" fill="#0984E3"/><rect x="1050" y="120" width="105" height="45" fill="#00B894"/>
+<rect x="945" y="165" width="105" height="45" fill="#E17055"/><rect x="1050" y="165" width="52" height="45" fill="#6C5CE7"/><rect x="1102" y="165" width="53" height="45" fill="#0984E3"/>
+<rect x="945" y="210" width="52" height="45" fill="#0984E3"/><rect x="997" y="210" width="158" height="45" fill="#00B894"/>
+<rect x="945" y="255" width="158" height="45" fill="#6C5CE7"/><rect x="1103" y="255" width="52" height="45" fill="#E17055"/></g>
+<g font-size="11" fill="#555" text-anchor="middle"><text x="165" y="345">↑ Frequency split among users</text><text x="465" y="345">↑ Time split among users</text><text x="765" y="345">↑ Unique code per user</text><text x="1050" y="345">↑ Sub-carriers + time slots</text></g>
+<!-- table -->
+<text x="60" y="400" font-size="20" font-weight="700" fill="#1B2A49">Comparison</text>
+<g font-size="14" fill="#1B2A49">
+<rect x="60" y="415" width="1080" height="44" fill="#1B2A49"/><g fill="#fff" font-weight="700"><text x="75" y="443">Feature</text><text x="290" y="443">FDMA</text><text x="500" y="443">TDMA</text><text x="710" y="443">CDMA</text><text x="920" y="443">OFDMA</text></g>
+<rect x="60" y="459" width="1080" height="50" fill="#fff"/><text x="75" y="489" font-weight="600">Resource split</text><text x="290" y="489">Frequency</text><text x="500" y="489">Time slots</text><text x="710" y="489">Codes</text><text x="920" y="489">Sub-carriers + time</text>
+<rect x="60" y="509" width="1080" height="50" fill="#EEF2FA"/><text x="75" y="539" font-weight="600">Used in</text><text x="290" y="539">1G (AMPS)</text><text x="500" y="539">2G (GSM)</text><text x="710" y="539">3G (WCDMA)</text><text x="920" y="539">4G LTE / 5G / Wi-Fi 6</text>
+<rect x="60" y="559" width="1080" height="50" fill="#fff"/><text x="75" y="589" font-weight="600">Key advantage</text><text x="290" y="589">Simple</text><text x="500" y="589">Efficient digital use</text><text x="710" y="589">Soft capacity</text><text x="920" y="589">High spectral efficiency</text>
+<rect x="60" y="609" width="1080" height="50" fill="#EEF2FA"/><text x="75" y="639" font-weight="600">Limitation</text><text x="290" y="639">Wastes idle bandwidth</text><text x="500" y="639">Needs synchronisation</text><text x="710" y="639">Near-far problem</text><text x="920" y="639">Complex, PAPR issue</text></g>
+</svg>
