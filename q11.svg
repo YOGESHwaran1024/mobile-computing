@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Inter, Arial, sans-serif">
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#E17055"/></marker></defs>
+<rect width="1200" height="800" fill="#EEF1F6"/>
+<text x="600" y="48" text-anchor="middle" font-size="28" font-weight="700" fill="#1B2A49">Security Measures – Mobile App Wireframe</text>
+<!-- 1 Login -->
+<g transform="translate(40,80)"><rect width="260" height="660" rx="32" fill="#fff" stroke="#1B2A49" stroke-width="3"/>
+<text x="130" y="60" text-anchor="middle" font-size="32">🔒</text><text x="130" y="105" text-anchor="middle" font-size="20" font-weight="700" fill="#1B2A49">Secure Login</text>
+<rect x="24" y="140" width="212" height="44" rx="10" fill="#F5F7FB"/><text x="40" y="168" font-size="13" fill="#888">Mobile number</text>
+<rect x="24" y="200" width="212" height="44" rx="10" fill="#F5F7FB"/><text x="40" y="228" font-size="13" fill="#888">Password ••••••••</text>
+<rect x="24" y="270" width="212" height="46" rx="23" fill="#0984E3"/><text x="130" y="299" text-anchor="middle" fill="#fff" font-weight="600">Login</text>
+<text x="130" y="350" text-anchor="middle" font-size="12" fill="#888">— or —</text>
+<rect x="24" y="370" width="212" height="46" rx="23" fill="#fff" stroke="#0984E3"/><text x="130" y="399" text-anchor="middle" fill="#0984E3" font-weight="600">☝ Use Fingerprint</text>
+<text x="130" y="450" text-anchor="middle" font-size="12" fill="#0984E3">Forgot password?</text></g>
+<!-- 2 OTP -->
+<g transform="translate(340,80)"><rect width="260" height="660" rx="32" fill="#fff" stroke="#1B2A49" stroke-width="3"/>
+<text x="130" y="90" text-anchor="middle" font-size="20" font-weight="700" fill="#1B2A49">Verify OTP</text>
+<text x="130" y="120" text-anchor="middle" font-size="12" fill="#666">Sent to +91 98••• ••210</text>
+<g fill="#F5F7FB" stroke="#CBD3E3"><rect x="22" y="160" width="32" height="44" rx="8"/><rect x="62" y="160" width="32" height="44" rx="8"/><rect x="102" y="160" width="32" height="44" rx="8"/><rect x="142" y="160" width="32" height="44" rx="8"/><rect x="182" y="160" width="32" height="44" rx="8"/><rect x="222" y="160" width="0" height="0"/></g>
+<text x="130" y="250" text-anchor="middle" font-size="12" fill="#666">Resend OTP in 00:28</text>
+<rect x="24" y="290" width="212" height="46" rx="23" fill="#0984E3"/><text x="130" y="319" text-anchor="middle" fill="#fff" font-weight="600">Verify</text>
+<g font-size="22" text-anchor="middle" fill="#1B2A49"><text x="60" y="430">1</text><text x="130" y="430">2</text><text x="200" y="430">3</text><text x="60" y="480">4</text><text x="130" y="480">5</text><text x="200" y="480">6</text><text x="60" y="530">7</text><text x="130" y="530">8</text><text x="200" y="530">9</text><text x="130" y="580">0</text></g></g>
+<!-- 3 Security settings -->
+<g transform="translate(640,80)"><rect width="260" height="660" rx="32" fill="#fff" stroke="#1B2A49" stroke-width="3"/>
+<text x="20" y="60" font-size="20" font-weight="700" fill="#1B2A49">Security Settings</text>
+<g font-size="14" fill="#1B2A49">
+<rect x="16" y="90" width="228" height="56" rx="12" fill="#F5F7FB"/><text x="30" y="123">SIM PIN lock</text><rect x="190" y="108" width="40" height="22" rx="11" fill="#00B894"/>
+<rect x="16" y="158" width="228" height="56" rx="12" fill="#F5F7FB"/><text x="30" y="191">Two-factor auth</text><rect x="190" y="176" width="40" height="22" rx="11" fill="#00B894"/>
+<rect x="16" y="226" width="228" height="56" rx="12" fill="#F5F7FB"/><text x="30" y="259">Biometric login</text><rect x="190" y="244" width="40" height="22" rx="11" fill="#00B894"/>
+<rect x="16" y="294" width="228" height="56" rx="12" fill="#F5F7FB"/><text x="30" y="327">Call/SMS encryption</text><rect x="190" y="312" width="40" height="22" rx="11" fill="#00B894"/>
+<rect x="16" y="362" width="228" height="56" rx="12" fill="#F5F7FB"/><text x="30" y="395">Block unknown callers</text><rect x="190" y="380" width="40" height="22" rx="11" fill="#CCC"/>
+<rect x="16" y="430" width="228" height="56" rx="12" fill="#F5F7FB"/><text x="30" y="463">Trusted devices</text><text x="215" y="463">›</text></g></g>
+<!-- 4 Alert / lost -->
+<g transform="translate(940,80)"><rect width="220" height="660" rx="32" fill="#fff" stroke="#1B2A49" stroke-width="3"/>
+<text x="110" y="70" text-anchor="middle" font-size="36">⚠️</text><text x="110" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#C0392B">Suspicious login</text>
+<text x="110" y="145" text-anchor="middle" font-size="12" fill="#666">New device · Mumbai</text>
+<rect x="20" y="190" width="180" height="46" rx="23" fill="#0984E3"/><text x="110" y="219" text-anchor="middle" fill="#fff" font-weight="600">It was me</text>
+<rect x="20" y="250" width="180" height="46" rx="23" fill="#FF4D4F"/><text x="110" y="279" text-anchor="middle" fill="#fff" font-weight="600">Secure account</text>
+<rect x="20" y="340" width="180" height="80" rx="12" fill="#F5F7FB"/><text x="110" y="370" text-anchor="middle" font-size="13" font-weight="700" fill="#1B2A49">Lost phone?</text><text x="110" y="395" text-anchor="middle" font-size="12" fill="#0984E3">Block SIM / Remote lock</text></g>
+<path d="M300 400 L340 400" stroke="#E17055" stroke-width="3" marker-end="url(#a)"/><path d="M600 400 L640 400" stroke="#E17055" stroke-width="3" marker-end="url(#a)"/><path d="M900 400 L940 400" stroke="#E17055" stroke-width="3" marker-end="url(#a)"/>
+</svg>
