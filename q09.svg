@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Inter, Arial, sans-serif">
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#E17055"/></marker></defs>
+<rect width="1200" height="800" fill="#E9EEF7"/>
+<text x="600" y="48" text-anchor="middle" font-size="28" font-weight="700" fill="#1B2A49">GSM Service – User Interface Prototype</text>
+<!-- Screen 1 Dialer -->
+<g transform="translate(40,80)"><rect width="260" height="680" rx="32" fill="#fff" stroke="#1B2A49" stroke-width="3"/>
+<text x="20" y="35" font-size="12" fill="#555">9:41</text><text x="200" y="35" font-size="12" fill="#555">GSM ▂▄▆█ 🔋</text>
+<text x="130" y="110" text-anchor="middle" font-size="26" font-weight="600" fill="#1B2A49">+91 98765 43210</text>
+<g font-size="26" text-anchor="middle" fill="#1B2A49">
+<g fill="#F1F4FA"><circle cx="50" cy="200" r="32"/><circle cx="130" cy="200" r="32"/><circle cx="210" cy="200" r="32"/><circle cx="50" cy="280" r="32"/><circle cx="130" cy="280" r="32"/><circle cx="210" cy="280" r="32"/><circle cx="50" cy="360" r="32"/><circle cx="130" cy="360" r="32"/><circle cx="210" cy="360" r="32"/><circle cx="50" cy="440" r="32"/><circle cx="130" cy="440" r="32"/><circle cx="210" cy="440" r="32"/></g>
+<text x="50" y="209">1</text><text x="130" y="209">2</text><text x="210" y="209">3</text><text x="50" y="289">4</text><text x="130" y="289">5</text><text x="210" y="289">6</text><text x="50" y="369">7</text><text x="130" y="369">8</text><text x="210" y="369">9</text><text x="50" y="449">*</text><text x="130" y="449">0</text><text x="210" y="449">#</text></g>
+<circle cx="130" cy="540" r="36" fill="#00B894"/><text x="130" y="552" text-anchor="middle" font-size="28" fill="#fff">📞</text>
+<g font-size="12" fill="#555" text-anchor="middle"><text x="50" y="640">Recents</text><text x="130" y="640" fill="#0984E3" font-weight="700">Keypad</text><text x="210" y="640">SMS</text></g></g>
+<!-- Screen 2 In call -->
+<g transform="translate(340,80)"><rect width="260" height="680" rx="32" fill="#1B2A49" stroke="#0F1629" stroke-width="3"/>
+<circle cx="130" cy="120" r="48" fill="#6C5CE7"/><text x="130" y="135" text-anchor="middle" font-size="40" fill="#fff">A</text>
+<text x="130" y="210" text-anchor="middle" font-size="22" font-weight="600" fill="#fff">Arun Kumar</text><text x="130" y="238" text-anchor="middle" font-size="15" fill="#9FB0D8">00:42 · GSM Voice</text>
+<g font-size="12" fill="#fff" text-anchor="middle"><circle cx="50" cy="340" r="30" fill="#2D3A63"/><text x="50" y="345">Mute</text><circle cx="130" cy="340" r="30" fill="#2D3A63"/><text x="130" y="345">Keypad</text><circle cx="210" cy="340" r="30" fill="#2D3A63"/><text x="210" y="345">Speaker</text>
+<circle cx="50" cy="420" r="30" fill="#2D3A63"/><text x="50" y="425">Hold</text><circle cx="130" cy="420" r="30" fill="#2D3A63"/><text x="130" y="425">Add call</text><circle cx="210" cy="420" r="30" fill="#2D3A63"/><text x="210" y="425">Contacts</text></g>
+<circle cx="130" cy="560" r="38" fill="#FF4D4F"/><text x="130" y="573" text-anchor="middle" font-size="28" fill="#fff">✆</text></g>
+<!-- Screen 3 SMS -->
+<g transform="translate(640,80)"><rect width="260" height="680" rx="32" fill="#fff" stroke="#1B2A49" stroke-width="3"/>
+<text x="20" y="60" font-size="20" font-weight="700" fill="#1B2A49">Messages</text>
+<g><rect x="16" y="90" width="228" height="64" rx="12" fill="#F5F7FB"/><text x="30" y="118" font-size="14" font-weight="700" fill="#1B2A49">Arun Kumar</text><text x="30" y="140" font-size="12" fill="#666">See you at 6 pm 👍</text>
+<rect x="16" y="166" width="228" height="64" rx="12" fill="#F5F7FB"/><text x="30" y="194" font-size="14" font-weight="700" fill="#1B2A49">Operator</text><text x="30" y="216" font-size="12" fill="#666">Your balance is ₹ 245</text>
+<rect x="16" y="242" width="228" height="64" rx="12" fill="#F5F7FB"/><text x="30" y="270" font-size="14" font-weight="700" fill="#1B2A49">Priya</text><text x="30" y="292" font-size="12" fill="#666">Call me when free</text></g>
+<circle cx="214" cy="590" r="28" fill="#0984E3"/><text x="214" y="600" text-anchor="middle" font-size="26" fill="#fff">+</text></g>
+<!-- Screen 4 Settings -->
+<g transform="translate(940,80)"><rect width="220" height="680" rx="32" fill="#fff" stroke="#1B2A49" stroke-width="3"/>
+<text x="20" y="60" font-size="20" font-weight="700" fill="#1B2A49">GSM Settings</text>
+<g font-size="14" fill="#1B2A49"><text x="20" y="120">Network mode</text><text x="20" y="140" font-size="12" fill="#888">GSM / 2G</text>
+<text x="20" y="190">Roaming</text><rect x="150" y="172" width="44" height="24" rx="12" fill="#00B894"/>
+<text x="20" y="250">Call forwarding</text><rect x="150" y="232" width="44" height="24" rx="12" fill="#CCC"/>
+<text x="20" y="310">Call waiting</text><rect x="150" y="292" width="44" height="24" rx="12" fill="#00B894"/>
+<text x="20" y="370">SIM info</text><text x="20" y="390" font-size="12" fill="#888">IMSI · Operator</text></g></g>
+<!-- flow arrows -->
+<path d="M300 300 L340 300" stroke="#E17055" stroke-width="3" marker-end="url(#a)"/><path d="M600 300 L640 300" stroke="#E17055" stroke-width="3" marker-end="url(#a)"/><path d="M900 300 L940 300" stroke="#E17055" stroke-width="3" marker-end="url(#a)"/>
+</svg>
