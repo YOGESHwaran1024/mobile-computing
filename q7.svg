@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Inter, Arial, sans-serif">
+<rect width="1200" height="800" fill="#0F1629"/>
+<text x="40" y="55" font-size="28" font-weight="700" fill="#fff">Cellular Network Performance Dashboard</text>
+<text x="40" y="82" font-size="14" fill="#8A96B5">Last 24 hours · All sectors</text>
+<!-- KPI cards -->
+<g font-family="Inter, Arial, sans-serif">
+<rect x="40" y="110" width="265" height="120" rx="16" fill="#1A2342"/><text x="64" y="145" font-size="14" fill="#8A96B5">Call Drop Rate</text><text x="64" y="195" font-size="40" font-weight="700" fill="#fff">0.8%</text><text x="200" y="195" font-size="14" fill="#00D68F">▼ 0.2%</text>
+<rect x="325" y="110" width="265" height="120" rx="16" fill="#1A2342"/><text x="349" y="145" font-size="14" fill="#8A96B5">Handoff Success</text><text x="349" y="195" font-size="40" font-weight="700" fill="#fff">98.6%</text><text x="500" y="195" font-size="14" fill="#00D68F">▲ 0.4%</text>
+<rect x="610" y="110" width="265" height="120" rx="16" fill="#1A2342"/><text x="634" y="145" font-size="14" fill="#8A96B5">Call Blocking Prob.</text><text x="634" y="195" font-size="40" font-weight="700" fill="#fff">1.9%</text><text x="785" y="195" font-size="14" fill="#FF6B6B">▲ 0.3%</text>
+<rect x="895" y="110" width="265" height="120" rx="16" fill="#1A2342"/><text x="919" y="145" font-size="14" fill="#8A96B5">Avg. Throughput</text><text x="919" y="195" font-size="40" font-weight="700" fill="#fff">42 Mbps</text></g>
+<!-- line chart -->
+<rect x="40" y="255" width="700" height="300" rx="16" fill="#1A2342"/>
+<text x="64" y="288" font-size="16" font-weight="600" fill="#fff">Traffic load (Erlangs) by hour</text>
+<g stroke="#2A3560"><line x1="70" y1="330" x2="715" y2="330"/><line x1="70" y1="390" x2="715" y2="390"/><line x1="70" y1="450" x2="715" y2="450"/><line x1="70" y1="510" x2="715" y2="510"/></g>
+<polyline fill="none" stroke="#4DA3FF" stroke-width="3" points="70,490 130,480 190,470 250,430 310,380 370,350 430,360 490,340 550,370 610,400 670,430 715,445"/>
+<polyline fill="none" stroke="#FF9F43" stroke-width="3" stroke-dasharray="6 5" points="70,420 715,420"/>
+<text x="640" y="412" font-size="12" fill="#FF9F43">Capacity</text>
+<g font-size="11" fill="#8A96B5"><text x="70" y="535">00h</text><text x="250" y="535">06h</text><text x="430" y="535">12h</text><text x="610" y="535">18h</text></g>
+<!-- bar chart -->
+<rect x="760" y="255" width="400" height="300" rx="16" fill="#1A2342"/>
+<text x="784" y="288" font-size="16" font-weight="600" fill="#fff">Signal quality by sector</text>
+<g><rect x="800" y="340" width="50" height="170" rx="6" fill="#4DA3FF"/><rect x="880" y="370" width="50" height="140" rx="6" fill="#00D68F"/><rect x="960" y="320" width="50" height="190" rx="6" fill="#4DA3FF"/><rect x="1040" y="400" width="50" height="110" rx="6" fill="#FF6B6B"/></g>
+<g font-size="12" fill="#8A96B5" text-anchor="middle"><text x="825" y="530">Sec 1</text><text x="905" y="530">Sec 2</text><text x="985" y="530">Sec 3</text><text x="1065" y="530">Sec 4</text></g>
+<!-- bottom row -->
+<rect x="40" y="580" width="560" height="190" rx="16" fill="#1A2342"/>
+<text x="64" y="613" font-size="16" font-weight="600" fill="#fff">Performance criteria</text>
+<g font-size="14" fill="#C9D2EA"><text x="64" y="648">• Coverage / signal strength (RSSI)</text><text x="64" y="676">• Capacity &amp; grade of service</text><text x="64" y="704">• Call quality (BER, SINR)</text><text x="64" y="732">• Drop &amp; blocking rate · Handoff success</text></g>
+<rect x="620" y="580" width="540" height="190" rx="16" fill="#1A2342"/>
+<text x="644" y="613" font-size="16" font-weight="600" fill="#fff">Cell utilisation</text>
+<g font-size="13" fill="#C9D2EA"><text x="644" y="652">Cell A</text><rect x="720" y="640" width="380" height="12" rx="6" fill="#2A3560"/><rect x="720" y="640" width="290" height="12" rx="6" fill="#4DA3FF"/>
+<text x="644" y="692">Cell B</text><rect x="720" y="680" width="380" height="12" rx="6" fill="#2A3560"/><rect x="720" y="680" width="220" height="12" rx="6" fill="#00D68F"/>
+<text x="644" y="732">Cell C</text><rect x="720" y="720" width="380" height="12" rx="6" fill="#2A3560"/><rect x="720" y="720" width="350" height="12" rx="6" fill="#FF6B6B"/></g>
+</svg>
